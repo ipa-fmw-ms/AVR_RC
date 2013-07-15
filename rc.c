@@ -10,7 +10,7 @@ Copyright (C) 2006 Ulrich Radig
 
 unsigned char rc_channel_counter = 0;
 unsigned int rc_channel_sum;
-volatile char rc_ch[RC_MAX_CHANNEL];
+volatile int rc_ch[RC_MAX_CHANNEL];
 
 //############################################################################
 //Timer Interrupt Service Routine
@@ -63,6 +63,6 @@ void rc_sum_init (void)
     return;
 }
 
-
+ 
 
 

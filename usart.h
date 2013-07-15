@@ -39,7 +39,7 @@
 	//----------------------------------------------------------------------------
 	
 	//Die Quarzfrequenz auf dem Board
-	#define F_CPU 12000000UL
+	#define F_CPU 800000UL
 	
 	//Anpassen der seriellen Schnittstellen Register wenn ein ATMega128 benutzt wird
 	#if defined (__AVR_ATmega128__)
